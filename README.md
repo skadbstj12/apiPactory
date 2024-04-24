@@ -77,4 +77,4 @@ API의 업데이트된 정보와 문서, 사용 사례 등을 제공하여 사�
 
 ### 레퍼런스
 UI를 디자인 할때 가장 많이 참고한 사이트는 [chrome web site](https://chromewebstore.google.com/) 입니다.   
-![image](img/chromestore.PNG)
+![image](https://github.com/skadbstj12/sherpa-api/blob/main/img/chromestore.png)
