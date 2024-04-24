@@ -56,7 +56,7 @@ apiPactory는 광고 수익과 구독 수익을 병행하여 안정적이고 지
 사용자들은 무료로 apiPactory를 이용하면서도 풍부한 기능과 서비스를 경험할 수 있으며, 필요에 따라 유료 API를 선택하여 더욱 효율적인 개발 및 서비스를 구축할 수 있습니다.  
 
 ## 경쟁사이트 및 레퍼런스
-### 경쟁상대, Rapid-api
+### 경쟁상대
 
 저희 사이트의 경쟁 상대로는 해외 사이트 중, [rapid-api](https://rapidapi.com/hub)라는 사이트가 있습니다.   
 이미 해외 개발자들 사이에선 유명한 사이트지만, apiPactory만의 차별점으로 rapid 사이트와는 다른 서비스를 제공할 수 있습니다.
@@ -78,3 +78,6 @@ API의 업데이트된 정보와 문서, 사용 사례 등을 제공하여 사�
 ### 레퍼런스
 UI를 디자인 할때 가장 많이 참고한 사이트는 [chrome web site](https://chromewebstore.google.com/) 입니다.   
 ![image](https://github.com/skadbstj12/sherpa-api/blob/main/img/chromestore.png)
+__chrome web store 화면__
+이번에 새롭게 리뉴얼한 크롬 웹스토어의 디자인은 apiPactory가 추구하는 사이트의 방향성과 일치하는 부분이 많다고 생각했습니다.   
+사용자에게 친화적이면서도 간단한 UI를 참고하여 apiPactory의 디자인을 업그레이드할 수 있다고 판단하여 레퍼런스로 삼았습니다.
