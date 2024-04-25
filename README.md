@@ -77,7 +77,10 @@ API의 업데이트된 정보와 문서, 사용 사례 등을 제공하여 사�
 
 ### 레퍼런스
 UI를 디자인 할때 가장 많이 참고한 사이트는 [chrome web site](https://chromewebstore.google.com/) 입니다.   
-![image](https://github.com/skadbstj12/sherpa-api/blob/main/img/chromestore.png)
 __chrome web store 화면__
 이번에 새롭게 리뉴얼한 크롬 웹스토어의 디자인은 apiPactory가 추구하는 사이트의 방향성과 일치하는 부분이 많다고 생각했습니다.   
-사용자에게 친화적이면서도 간단한 UI를 참고하여 apiPactory의 디자인을 업그레이드할 수 있다고 판단하여 레퍼런스로 삼았습니다.
+사용자에게 친화적이면서도 간단한 UI를 참고하여 apiPactory의 디자인을 업그레이드할 수 있다고 판단하여 레퍼런스로 삼았습니다.   
+
+### 프로젝트 참여 인원
+팀장 : [이재혁](https://github.com/jaehyuk-lee-0712)   
+팀원 : [서대원](https://github.com/seodaewon1), [남윤서](https://github.com/skadbstj12)
