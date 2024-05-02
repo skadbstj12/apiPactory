@@ -1,0 +1,220 @@
+#main {
+    width: 100%;
+    height: calc(100% - 565px);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.main-container {
+    width: 1354px;
+    height: inherit;
+    /* background-color: #E77E7E; */
+}
+
+#main .content1 {
+    margin-top: 65px;
+    width: 100%;
+    height: 374px;
+    background-color: #E1E4FF;
+    border-radius: 27px;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+#main .content1 .h3 ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#main .content1 ul li {
+    margin-top: 60px;
+}
+
+#main .content1 ul li a {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+#main .content1 .p ul {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#main .content1 .p ul li {
+    margin-top: 0;
+}
+
+#main .content1 .p a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#main .content1 .main-icon {
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#main .content1 .main-icon img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    margin-bottom: 32px;
+}
+
+#main .content1 .btn a {
+    margin-top: 32px;
+    width: 125px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: #E1E4FF;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+#main .content1 .main-btn ul li a {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#main .content2 {
+    width: 100%;
+}
+
+#main .content2 .category-title li {
+    font-size: 30px;
+}
+
+#main .content2 .catefory-bar {}
+
+#main .content2 .catefory-bar ul {}
+
+#main .content2 .catefory-bar ul li {
+    margin-top: 36px;
+    font-weight: 500;
+}
+
+#main .content2 .catefory-bar ul li a {
+    font-size: 16px;
+    display: inline-block;
+    width: 254px;
+    height: 82px;
+    background-color: #BEC2E3;
+    border-radius: 18px;
+    position: relative;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 62px;
+}
+
+#main .content2 .catefory-bar ul li a span {
+    margin-top: 30px;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#main .content2 .catefory-bar ul li a:nth-child(2) {
+    background-color: #808CFF;
+}
+
+#main .content2 .catefory-bar ul li a:nth-child(3) {
+    background-color: #C7C7C7;
+}
+
+#main .content2 .catefory-bar ul li a:nth-child(4) {
+    background-color: #7FCFFF;
+}
+
+#main .content2 .catefory-bar ul li a:nth-child(5) {
+    background-color: #6AE78D;
+}
+
+#main .content2 .catefory-bar ul li img {
+    width: 50px;
+    height: 50px;
+    background-color: #EE4E4E;
+    border-radius: 50%;
+}
+
+#main .content3 .recommend-title {
+    display: flex;
+    position: relative;
+}
+
+#main .content3 .recommend-title li {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#main .content3 .recommend-title a {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    color: #1E64D4;
+    margin-right: 15px;
+}
+
+#main .content3 .apibanner {}
+
+#main .content3 .apibanner ul li {
+    margin-top: 36px;
+    font-weight: 500;
+    margin-bottom: 94px;
+}
+
+#main .content3 .apibanner ul li a {
+    font-size: 16px;
+    display: inline-block;
+    width: 254px;
+    height: 277px;
+    background-color: #BEC2E3;
+    border-radius: 18px;
+    position: relative;
+    margin-right: 6px;
+    margin-left: 6px;
+    margin-bottom: 62px;
+}
+
+#main .content3 .apibanner ul li a span {
+    margin-top: 228px;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#main .content3 .apibanner ul li a:nth-child(2) {
+    background-color: #808CFF;
+}
+
+#main .content3 .apibanner ul li a:nth-child(3) {
+    background-color: #C7C7C7;
+}
+
+#main .content3 .apibanner ul li a:nth-child(4) {
+    background-color: #7FCFFF;
+}
+
+#main .content3 .apibanner ul li a:nth-child(5) {
+    background-color: #6AE78D;
+}
+
+#main .content3 .apibanner ul li img {
+    width: 220px;
+    height: 140px;
+    background-color: #EE4E4E;
+    margin-left: 17px;
+    margin-top: 22px;
+    position: absolute;
+}

@@ -1,0 +1,213 @@
+/* header start */
+
+#header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-family: var(--fontI);
+}
+
+#logos {
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 45px;
+    margin-right: 10px;
+    background: url("../img/logo2.png") center / cover;
+}
+
+#title {
+    margin-right: 80px;
+}
+
+#title h2 a {
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+#menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: var(--fontI);
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu ul>li {
+    margin-right: 50px;
+}
+
+#menu ul>li>a {
+    font-size: 1rem;
+}
+
+#controller {
+    width: 550px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchBar {
+    width: 370px;
+    height: 100%;
+    background-color: #eee;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchBar .search-input {
+    width: 100%;
+    height: 100%;
+    background-color: #eee;
+    border: 0;
+}
+
+#searchBar .search-input:focus {
+    outline: none;
+}
+
+#searchBar i {
+    font-size: 1rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#profile {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #dedede;
+    line-height: 1;
+}
+
+/* header end */
+
+
+/* main start */
+#main {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+}
+
+/* main end */
+
+
+/* footer start */
+#footer {
+    width: 100%;
+    height: 515px;
+    background-color: #ECECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__container {
+    width: 60%;
+    height: 100%;
+}
+
+#f_logos {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-bottom: 70px;
+}
+
+#flogo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    background: url("../img/logo2.png") center / cover;
+    background-repeat: no-repeat;
+}
+
+#ftitle h2 a {
+    font-weight: 800;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 60px;
+    flex-wrap: wrap;
+}
+
+#contact {
+    margin-left: 15px;
+}
+
+#contact ul {
+    display: block;
+    margin-right: 150px;
+}
+
+#contact ul li {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#contact ul li a {
+    display: inline-block;
+    font-weight: 650;
+    line-height: 2;
+}
+
+.follow>li.icon>a {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: var(--black);
+    border-radius: 50%;
+    text-align: center;
+}
+
+.follow li:nth-child(2) a {
+    background-image: var(--snsGithub);
+}
+
+.follow li:nth-child(3) a {
+    background-image: var(--snsYoutube);
+}
+
+.follow li:nth-child(4) a {
+    background-image: var(--snsBlog);
+}
+
+#rights {
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+/* footer end */

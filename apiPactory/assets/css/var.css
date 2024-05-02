@@ -1,0 +1,42 @@
+:root {
+    --fontI: "IBM Plex Sans";
+    --fontP: "Poppins";
+
+    --mainColor: #eeeeee;
+    --pointColor: #da4242;
+    --white: #fff;
+    --white100: #fff;
+    --white200: #e1e1e1;
+    --white300: #ddd;
+    --white400: #ccc;
+    --white500: #bbb;
+    --white600: #aaa;
+    --black: #000;
+    --black100: #111;
+    --black200: #222;
+    --black300: #333;
+    --black400: #444;
+    --black500: #555;
+    --black600: #666;
+    --black700: #777;
+
+    /* // 기본 폰트 설정 */
+    font-family: var(--fontN);
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+
+    /* // 아이폰 가로 모드에서 글씨 확대 금지 */
+    -webkit-text-size-adjust: 100%;
+
+    --snsInsta: url(../img/snsLogo2.svg);
+    --snsGithub: url(../img/snsLogo3.svg);
+    --snsYoutube: url(../img/snsLogo1.svg);
+    --snsBlog: url(../img/snsLogo4.svg);
+}
+
+@media (max-width : 800px) {
+    :root {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,125 @@
+/* login start */
+#wrap {
+    width: 100%;
+}
+
+#slider {
+    width: 100%;
+}
+
+#slider .login {
+    width: 600px;
+    height: 650px;
+    background-color: #E1E4FF;
+    border-radius: 20px;
+    margin-top: 150px;
+    text-align: center;
+    margin: 150px auto 0 auto;
+    position: relative;
+}
+
+#slider .login .nav {
+    /* justify-content: center; */
+}
+
+#slider .login .nav ul {
+    margin-top: 70px;
+    display: inline-block;
+}
+
+#slider .login .nav ul li a {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#slider .login .navlogin {
+    justify-content: center;
+    display: flex;
+}
+
+#slider .login .navlogin ul {
+    margin-top: 38px;
+}
+
+#slider .login .navlogin ul li a {
+    font-size: 24px;
+    font-weight: 400;
+    color: #170071;
+}
+
+#slider .login .idbox input {
+    padding: 0 10px;
+}
+
+#slider .login .idbox .input-style {
+    margin-top: 60px;
+    width: 286px;
+    height: 46px;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+#slider .login .passbox input {
+    padding: 0 10px;
+}
+
+#slider .login .passbox .input-style {
+    margin-top: 18px;
+    width: 286px;
+    height: 46px;
+    background-color: #fff;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+}
+
+#slider .login .missid ul li a {
+    color: #666;
+    font-size: 12px;
+}
+
+#slider .login .missid ul li a:hover {
+    text-decoration: underline;
+}
+
+#slider .login .signup {
+    display: flex;
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 147px;
+}
+
+#slider .login .signup ul li a {
+    font-size: 16px;
+    color: #666;
+}
+
+#slider .login .signup ul li a:hover {
+    text-decoration: underline;
+}
+
+#slider .login .confirm {
+    width: 94px;
+    height: 40px;
+    background-color: #6776FF;
+    margin-top: 158px;
+    right: 0;
+    position: absolute;
+    margin-right: 147px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slider .login .confirm ul li a {
+    font-size: 16px;
+    color: #fff;
+}
+
+
+/* login end */

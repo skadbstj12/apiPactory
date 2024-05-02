@@ -1,0 +1,111 @@
+/* // 여백초기화 */
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+p,
+table,
+th,
+td,
+input,
+figcaption,
+figure,
+blockquote {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button,
+input,
+table,
+textarea {
+    font-family: var(--fontN), var(--fontG), 'AppleSDGothicNeo-Regular', 'Malgun Gothic', '맑은 고딕', 'dotum', '돋움';
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* // 글씨를 특별한 이유로 평범한 글자와 구분하기 위해서는 <i> 태그를 사용합니다.
+// 글씨를 중요성과 관련성을 전달하지 않고, 다른 텍스트와 구별 할 때 <b> 태그를 사용합니다.
+// 글씨를 강조하고 싶다면 <em> 태그를 사용합니다.
+// 글씨를 강조하고 중요성까지 강조하고 싶다면 <strong> 태그를 사용합니다.
+// 글씨의 중요성과 강조를 고려하지 않는 단순 참고용 표시를 사용한다면 <mark> 태그를 사용합니다.
+// 글씨의 전문적인 용어를 정의할 때는 <dfn> 태그를 사용합니다.
+// 글씨의 저작권 및 법적 텍스트 표시는 <small> 태그를 사용합니다.
+// 글씨를 위첨자로 표현하고 싶다면 <sup> 태그를 사용합니다.
+// 글씨를 아래첨자로 표현하고 싶다면 <sub> 태그를 사용합니다.
+// 글씨의 맞춤법이 틀린 단어를 표현하고 싶다면 <u> 태그를 사용합니다
+
+// 제목 초기화 */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 1rem;
+    /* // = 16px rem 은 root를 상속, em 은 부모태그의 fz를 상속 */
+}
+
+/* // 폰트 스타일 */
+em,
+address {
+    font-style: normal;
+}
+
+img {
+    width: 100vw;
+    vertical-align: top;
+    /* 이미지 잔존 여백 제거 */
+}
+
+img,
+fieldset,
+button,
+input {
+    border: 0;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+/* 블라인드 효과 */
+.blind {
+    position: absolute;
+    width: 1px;
+    clip: rect(0, 0, 0, 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
